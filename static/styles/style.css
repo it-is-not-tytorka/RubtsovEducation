@@ -16,28 +16,41 @@ a {
 }
 
 .nav-label-left {
-    font-size: 4vw;
-    margin-left: 1vw;
+    display:inline;
+    width: 30%;
+    float: left;
+    font-size: 3.5em;
+    margin-left: 0.2em;
+}
+
+.container-nav-label-r {
+    display: inline; 
+    width: 70%;
+    float: right;
 }
 
 .nav-label-right {
     width: 20%;
     float: right;
     text-align: center;
-    font-size: 2.5vw;
-    margin-top: 1vw;
+    font-size: 3em;
+    margin-top: 0.5em;
 }
 
 .head {
-    font-size: 4vw;
+    font-size: 4em;
     text-align: center;
-    margin-bottom: 1vw;
-    margin-top: 3vw;
+    margin-bottom: 0.3em;
+    margin-top: 1em;
+}
+
+.container-about-me {
+    display: inline-block
 }
 
 .my-photo {
-    width: 30vw;
-    margin-right: 2vw;
+    width: 34em;
+    margin-right: 3em;
     display: flex;
     justify-content: center;
     float: right;
@@ -47,14 +60,18 @@ a {
     width: 60%;
     text-align: left;
     float: left;
-    font-size: 2.1vw;
-    margin-left: 1vw;
+    font-size: 2.5em;
+    margin-left: 0.5em;
+}
+
+.container-exp {
+    margin-bottom: 8em;
 }
 
 .left-col-exp {
     width: 70%;
     float: left;
-    margin-left: 1vw;
+    margin-left: 0.5em;
 }
 
 .rigt-col-exp {
@@ -63,37 +80,38 @@ a {
 }
 
 .txt-discr {
-    font-size: 2.1vw;
+    font-size: 2.5em;
 }
 
 .icon {
-    margin-right: 1vw;
+    margin-right: 0.5em;
     width: 5%;
 }
 
 .icon-lessons-left {
-    width: 10vw;
+    width: 11em;
     text-align: center;
     float: left;
-    margin-left: 10vw;
+    margin-left: 6em;
 }
 
 .icon-lessons-right {
-    width: 10vw;
+    width: 11em;
     align-content: center;
     float: right;
-    margin-right: 10vw;
+    margin-right: 6em;
 }
 
 .big-icon {
     width: 25%;
+    margin-top: 4em;
 }
 
 .txt-lessons-left {
     text-align: left;
     float: left;
-    font-size: 2vw;
-    margin-left: 1vw;
+    font-size: 2.5em;
+    margin-left: 0.5em;
     width: 70%;
 
 }
@@ -101,8 +119,8 @@ a {
 .txt-lessons-right {
     text-align: right;
     float: right;
-    font-size: 2vw;
-    margin-right: 1vw;
+    font-size: 2.5em;
+    margin-right: 0.5em;
     width: 70%;
 
 }
@@ -110,9 +128,233 @@ a {
 .txt-contact {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 1.3em;
 }
 
 .contact-icon {
-    width: 6vw;
+    width: 4em;
+}
+
+@media (max-width: 1550px) {
+    .txt-about-me {
+        width: 96%;
+        text-align: left;
+        font-size: 2.5em;
+        margin-left: 0.5em;
+    }
+    .container-my-photo{
+        display: table;
+        width: 100%;
+    }
+    .my-photo {
+        width: 35em;
+        display: block;
+        margin: 0 auto;
+        margin-top: 2em;
+        justify-content: center;
+        float: none;
+    }
+
+    .nav-label-left {
+        font-size: 3em;
+        margin-left: 0.2em;
+    }
+    
+    .nav-label-right {
+        width: 20%;
+        float: right;
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 0.3em;
+        margin-right: 0.5em;
+    }
+    
+    .head {
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 0.3em;
+        margin-top: 1em;
+    }
+    
+    .container-about-me {
+        display: inline-block
+    }
+    
+    .left-col-exp {
+        width: 100%;
+        float: left;
+        margin-left: 0.5em;
+    }
+    
+    .txt-discr {
+        font-size: 2.5em;
+    }
+    
+    .icon {
+        margin-right: 0.5em;
+        width: 8%;
+    }
+    
+    .icon-lessons-left {
+        width: 11em;
+        text-align: center;
+        float: left;
+        margin-left: 6em;
+    }
+    
+    .icon-lessons-right {
+        width: 11em;
+        align-content: center;
+        float: right;
+        margin-right: 6em;
+    }
+    
+    .big-icon {
+        width: 25em;
+        margin-right: 0;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        float: none;
+    }
+    
+    .txt-lessons-left {
+        text-align: left;
+        float: left;
+        font-size: 2.5em;
+        margin-left: 0.5em;
+        width: 70%;
+    
+    }
+    
+    .txt-lessons-right {
+        text-align: right;
+        float: right;
+        font-size: 2.5em;
+        margin-right: 0.5em;
+        width: 70%;
+    
+    }
+    
+    .txt-contact {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3em;
+    }
+    
+    .contact-icon {
+        width: 4em;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .txt-about-me {
+        width: 96%;
+        text-align: left;
+        font-size: 1.8em;
+        margin-left: 0.5em;
+    }
+    .container-my-photo{
+        display: table;
+        width: 100%;
+    }
+    .my-photo {
+        width: 26em;
+        display: block;
+        margin: 0 auto;
+        margin-top: 2em;
+        justify-content: center;
+        float: none;
+    }
+
+    .nav-label-left {
+        font-size: 2.5em;
+        text-align: left;
+    }
+    
+    .nav-label-right {
+        float: right;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 0.3em;
+        margin-right: 0.5em;
+    }
+    
+    .head {
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 0.3em;
+        margin-top: 1em;
+    }
+    
+    .container-about-me {
+        display: inline-block
+    }
+    
+    .left-col-exp {
+        width: 100%;
+        float: left;
+        margin-left: 0.5em;
+    }
+    
+    .txt-discr {
+        font-size: 2em;
+    }
+    
+    .icon {
+        margin-right: 0.5em;
+        width: 8%;
+    }
+    
+    .icon-lessons-left {
+        width: 9em;
+        text-align: center;
+        float: left;
+        margin-left: 2em;
+    }
+    
+    .icon-lessons-right {
+        width: 9em;
+        align-content: center;
+        float: right;
+        margin-right: 2em;
+    }
+    
+    .big-icon {
+        width: 20em;
+        margin-right: 0;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        float: none;
+    }
+    
+    .txt-lessons-left {
+        text-align: left;
+        float: left;
+        font-size: 1.8em;
+        margin-left: 0.5em;
+        width: 70%;
+    
+    }
+    
+    .txt-lessons-right {
+        text-align: right;
+        float: right;
+        font-size: 1.8em;
+        margin-right: 0.5em;
+        width: 70%;
+    
+    }
+    
+    .txt-contact {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3em;
+    }
+    
+    .contact-icon {
+        width: 4em;
+    }
 }

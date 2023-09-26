@@ -26,7 +26,7 @@
                 <span class="nav-label-left">Rubtsov Ilya</span>
             </div>
 
-            <div style="display: inline; width: 70%;float: right;">
+            <div class = "container-nav-label-r">
                 <span class="nav-label-right"><a href="#contact-info">Контакты</a></span>
                 <span class="nav-label-right"><a href="#lessons">Уроки</a></span>
                 <span class="nav-label-right"><a href="#experience">Опыт</a></span>
@@ -39,7 +39,7 @@
         <div>
             <div id="about-me" style="text-align: center">
                 <h1 class="head">Преподаватель по математике</h1>
-                <div style="display: inline-block;">
+                <div class="container-about-me">
                     <span class="txt-about-me">
                         Привет! Не так давно я окончил школу и успешно сдал экзамены. Мне было интересно изучать
                         математику, но ещё интереснее мне было рассказывать о ней. Именно поэтому ещё во время
@@ -48,11 +48,13 @@
                         самостоятельно, придумывать новые решения, а не заучивают готовые алгоритмы. Вместе мы учимся
                         разбираться в сложном материале и не бояться осваивать что-то новое.
                     </span>
-                    <img class="my-photo" src="static/images/myroundphoto.png" alt="мое фото">
+                    <div class="container-my-photo">
+                        <img class="my-photo" src="static/images/myroundphoto.png" alt="мое фото">
+                    </div>
                 </div>
             </div>
 
-            <div id="experience">
+            <div class="container-exp" id="experience">
                 <h1 class="head">Опыт</h1>
                 <div class="left-col-exp">
                     <p class="txt-discr"><img class="icon" onclick="ani()" src="static/icons/olimpiad-icon.png"
@@ -69,7 +71,7 @@
                 </div>
             </div>
 
-            <div id="lessons">
+            <div  id="lessons">
                 <h1 class="head">Как проходят занятия?</h1>
                 <div style="display: grid;">
                     <div>
@@ -114,7 +116,6 @@
                     <img class=contact-icon src="static/icons/telegram-icon.png" alt="Телеграм">
                 </a>
             </div>
-            <p class="txt-contact">Email: ruibtsiov@gmail.com</p>
         </div>
     </footer>
 </body>
