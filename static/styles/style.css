@@ -65,7 +65,7 @@ a {
 }
 
 .container-exp {
-    margin-bottom: 8em;
+    margin-bottom: 7em;
 }
 
 .left-col-exp {
@@ -179,6 +179,10 @@ a {
     .container-about-me {
         display: inline-block
     }
+
+    .container-exp {
+        margin-bottom: 0;
+    }
     
     .left-col-exp {
         width: 100%;
@@ -274,11 +278,12 @@ a {
     }
     
     .nav-label-right {
+        width:25%;
         float: right;
         text-align: center;
         font-size: 2em;
         margin-top: 0.3em;
-        margin-right: 0.5em;
+        margin-right:0;
     }
     
     .head {
@@ -345,6 +350,123 @@ a {
         font-size: 1.8em;
         margin-right: 0.5em;
         width: 70%;
+    
+    }
+    
+    .txt-contact {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3em;
+    }
+    
+    .contact-icon {
+        width: 4em;
+    }
+}
+
+@media (max-width: 650px) {
+    .txt-about-me {
+        width: 100%;
+        text-align: left;
+        font-size: 1.3em;
+    }
+    .container-my-photo{
+        display: table;
+        width: 100%;
+    }
+    .my-photo {
+        width: 15em;
+        display: block;
+        margin: 0 auto;
+        margin-top: 2em;
+        justify-content: center;
+        float: none;
+    }
+
+    .nav-label-left {
+        font-size: 2.5em;
+        text-align: left;
+    }
+    
+    .nav-label-right {
+        float: right;
+        text-align: right;
+        font-size: 1.5em;
+        margin-top: 0.3em;
+        width: 100%;
+    }
+    
+    .head {
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 0.3em;
+        margin-top: 1em;
+    }
+    
+    .container-about-me {
+        display: inline-block
+    }
+    
+    .left-col-exp {
+        width: 100%;
+        float: left;
+    }
+    
+    .txt-discr {
+        font-size: 2em;
+    }
+    
+    .icon {
+        margin-right: 0.5em;
+        width: 8%;
+    }
+    
+    .container-icons-lsns {
+        display: table;
+        width: 100%;
+    }
+
+    .icon-lessons-left {
+        width: 9em;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        float: none;
+    }
+    
+    .icon-lessons-right {
+        width: 9em;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        float: none;
+    }
+    
+    .big-icon {
+        width: 16em;
+        margin-right: 0;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        float: none;
+    }
+
+
+    .txt-lessons-left {
+        text-align: left;
+        float: left;
+        margin-left: 0.2em;
+        font-size: 1.8em;
+        width: 100%;
+    
+    }
+    
+    .txt-lessons-right {
+        text-align: left;
+        float: left;
+        margin-left: 0.2em;
+        font-size: 1.8em;
+        width: 100%;
     
     }
     
